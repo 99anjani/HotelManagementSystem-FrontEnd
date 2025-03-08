@@ -1,0 +1,51 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px 25px 75px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+
+.navbar-head a{
+    font-size: 30px;
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: #24065f;
+}
+
+.navbar-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.navbar-ul li {
+    margin-left: 20px;
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    color: #414141fa;
+    transition: color 0.5s;
+}
+
+.navbar-ul li a:hover {
+    color:  #24065f;
+    font-size: 21px;
+}
+
+.navbar-ul li a.active {
+    color: #24065f;
+    font-weight: 700;
+    font-size: 22px;
+}
+}
